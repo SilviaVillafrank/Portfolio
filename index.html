@@ -1,0 +1,389 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Silvia Villafranca | VR Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[Unity], [Blender], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Silvia Villafranca] | Developer" />
+    
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+<!-- Pulsante per aprire il menu -->
+<a id="menu-toggle" class="menu-toggle" href="#">
+  <i class="fa fa-bars"></i>
+</a>
+
+<!-- Sidebar Navigation -->
+<nav id="sidebar-wrapper">
+  <div class="menu-header">
+    <span class="menu-title">Silvia Villafranca</span>
+    <a id="menu-close" class="menu-close" href="#">
+      <i class="fa fa-times"></i>
+    </a>
+  </div>
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#hero">Home</a></li>
+    <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#about">About</a></li>
+    <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#projects">Projects</a></li>
+    <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi there, I'm <span class="text-color-main">Silvia</span>  
+          <br />
+          a <span class="text-color-main">VR Developer</span> 
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/Silvia.jpeg"
+                alt="Profile Image"
+                style="border-radius: 50%; object-fit: cover;"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Hello everyone and welcome to my personal space! </p>
+                <p class="about-wrapper__info-text">
+                I'm Silvia, an art and technology enthusiast. 
+                I believe that the creation of immersive virtual environments, interactive simulations and 3D modelling represent an evolution of art, 
+                allowing me to bring these two passions together every day.
+                With a background in Digital Humanities, I position myself as a bridge between the technical and artistic worlds, 
+                facilitating communication and collaboration between the different figures in a development team.</p>
+              
+              <p class="about-wrapper__info-text">
+                If you're interested in learning more about my experience, take a look at my CV!
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/Silvia_Villafranca_CV_EN.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+
+              <br>
+
+              <p class="about-wrapper__info-text">
+                If you're interested in learning more about me beyond my professional work, 
+                discover my hobbies and passions that inspire my creativity and curiosity!
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  class="cta-btn cta-btn--resume"
+                  href="Hobby.html"
+                >
+                View Hobbies and Interests
+                </a>
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Virtual Reality Training Platform - Rete Ferroviaria Italiana (RFI)</h3>
+                <div>
+                  <p class="mb-4">
+                    Development of a multiplayer virtual reality smart learning platform for remote training of technical personnel in the railway industry.
+                  </p>
+                </div>
+                <a
+                  class="cta-btn cta-btn--hero"
+                  href="project1.html"
+                >
+                  See more info
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <!--<a rel="noreferrer" href="project1.html">-->
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/imgrfi.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">VR Solution for Tele-Collaborative e-Health Applications - TrialsNet</h3>
+                <div>
+                  <p class="mb-4">
+                    European project testing the potential of Beyond 5G and 6G networks to revolutionise key sectors such as security, health and culture.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  href="project2.html"
+                >
+                See more info
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/imgtrials.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Dentro il Mare - Istituto Comprensivo Statale "C. Cassola"</h3>
+                <div>
+                  <p class="mb-4">
+                    Educational project in collaboration with schools to promote the use of virtual reality in learning, with a focus on deep sea exploration.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  href="project3.html"
+                >
+                See more info
+                </a>
+                <!--<a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>-->
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/imgmare.jpeg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Let's Connect!
+          <p class="contact-wrapper__text"> I'm always open to new opportunities and collaborations.</p>
+          <p class="contact-wrapper__text"> Get in touch via LinkedIn or Email me directly.</p>
+          <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/silviavillafranca/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="mailto:svillafranca57@gmail.com" target="_blank">
+            <i class="fa fa-envelope-o fa-inverse" ></i>
+          </a>
+        </div>
+          <!--<a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:example@email.com"
+            >Call to Action</a
+          >-->
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!--<a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>-->
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2025 - Silvia Villafranca
+         <!-- <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
+            >Jacobo Martínez</a>-->
+          
+        </p>
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio 
+        <p class="mt-3 pt-3">
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/cobiwave/simplefolio/fork"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          >
+          <a
+            rel="noreferrer" 
+            class="github-button"
+            href="https://github.com/cobiwave/simplefolio"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star cobiwave/simplefolio on GitHub"
+            >Star</a
+          >
+        </p>-->
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
